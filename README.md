@@ -38,8 +38,10 @@ adb push basic_img_rec_aircraft_none.png /system/gui/image/
 adb push osd_ic_aircraftchannel.png /system/gui/image/
 adb push osd_ic_audience.png /system/gui/image/
 adb push osd_ic_aircraftbattery_normal.png /system/gui/image/
+adb push osd_ic_aircraftbattery_low.png /system/gui/image/
 adb push osd_ic_clock.png /system/gui/image/
 adb push osd_ic_glassesbattery_normal.png /system/gui/image/
+adb push osd_ic_glassesbattery_low.png /system/gui/image/
 ```
 ### stop adb
 ```
