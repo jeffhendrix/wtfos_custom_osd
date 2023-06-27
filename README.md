@@ -51,7 +51,9 @@ adb push conthrax-sb.ttf /system/fonts/
 ```
 ### push fonts to goggles
 included fonts are from Shannon Baker (aka - SNEAKY_FPV). Look on his site for new and updated fonts
+
 https://sites.google.com/view/sneaky-fpv/home
+
 https://www.youtube.com/watch?v=id1x1TmzqIM&list=PLgZo1zkly1HN10JCDupFsE9PYG_iiSsH8&index=1&t=933s
 ```
 adb -d push ./fonts/. /blackbox/wtfos/opt/fonts
