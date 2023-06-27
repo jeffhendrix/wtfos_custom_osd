@@ -12,17 +12,9 @@ set Path=%Path%;c:\temp\platform-tools\
 adb start-server
 adb devices
 ```
-### push xml file
+### get original xml layout file
 ```
 adb pull /system/gui/xml/racing_chnl_osd_win.xml [destination]
-```
-### push fonts to goggles
-```
-adb -d push ./fonts/. /blackbox/wtfos/opt/fonts
-```
-### copy conthrax font to system
-```
-adb push conthrax-sb.ttf /system/fonts/
 ```
 ### copy updated xml layout to system
 ```
@@ -42,6 +34,14 @@ adb push osd_ic_aircraftbattery_low.png /system/gui/image/
 adb push osd_ic_clock.png /system/gui/image/
 adb push osd_ic_glassesbattery_normal.png /system/gui/image/
 adb push osd_ic_glassesbattery_low.png /system/gui/image/
+```
+### copy conthrax font to system
+```
+adb push conthrax-sb.ttf /system/fonts/
+```
+### push fonts to goggles
+```
+adb -d push ./fonts/. /blackbox/wtfos/opt/fonts
 ```
 ### stop adb
 ```
