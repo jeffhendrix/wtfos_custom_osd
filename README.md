@@ -12,7 +12,7 @@ set Path=%Path%;c:\temp\platform-tools\
 adb start-server
 adb devices
 ```
-### get xml file
+### push xml file
 ```
 adb pull /system/gui/xml/racing_chnl_osd_win.xml [destination]
 ```
