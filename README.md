@@ -2,7 +2,9 @@
 custom icons for built in OSD elements
 
 Instructions for rooting DJI goggles and adding wtfos
+
 https://github.com/EVilm1/WIKI-HACK-DJI-OSD
+
 Links to several new fonts in section 5
 
 ### Download and install adb
