@@ -1,11 +1,13 @@
 # wtfos_custom_osd
 custom icons for built in OSD elements
 
-https://www.youtube.com/watch?v=id1x1TmzqIM&list=PLgZo1zkly1HN10JCDupFsE9PYG_iiSsH8&index=1&t=933s
+Instructions for rooting DJI goggles and adding wtfos
 https://github.com/EVilm1/WIKI-HACK-DJI-OSD
+Links to several new fonts in section 5
 
+### Download and install adb
 https://dl.google.com/android/repository/platform-tools-latest-windows.zip
-
+### add path to where adb installed
 set Path=%Path%;c:\temp\platform-tools\
 ### start adb
 ```
@@ -43,6 +45,9 @@ adb push osd_ic_glassesbattery_low.png /system/gui/image/
 adb push conthrax-sb.ttf /system/fonts/
 ```
 ### push fonts to goggles
+included fonts are from Shannon Baker (aka - SNEAKY_FPV). Look on his site for new and updated fonts
+https://sites.google.com/view/sneaky-fpv/home
+https://www.youtube.com/watch?v=id1x1TmzqIM&list=PLgZo1zkly1HN10JCDupFsE9PYG_iiSsH8&index=1&t=933s
 ```
 adb -d push ./fonts/. /blackbox/wtfos/opt/fonts
 ```
