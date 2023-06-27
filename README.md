@@ -6,8 +6,11 @@ https://github.com/EVilm1/WIKI-HACK-DJI-OSD
 Links to several new fonts in section 5
 
 ### Download and install adb
+
 https://dl.google.com/android/repository/platform-tools-latest-windows.zip
+
 ### add path to where adb installed
+
 set Path=%Path%;c:\temp\platform-tools\
 ### start adb
 ```
