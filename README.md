@@ -19,6 +19,9 @@ adb pull /system/gui/xml/racing_chnl_osd_win.xml [destination]
 ### copy updated xml layout to system
 ```
 adb push racing_chnl_osd_win.xml /system/gui/xml/
+```
+### copy new icons to system
+```
 adb push SDCard-Glasses-normal.png /system/gui/image/
 adb push SDCard-Glasses-none.png /system/gui/image/
 adb push SDCard-flight-normal.png /system/gui/image/
